@@ -1,0 +1,35 @@
+.main{
+    margin:50px auto;
+    padding-top: 40px ;
+    color: #2b2f32;
+}
+
+.textInput {
+    font-size: medium;
+    border: 1px solid #EEEEEE;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    padding: 5px;
+    display: block;
+    margin: 5px auto;
+}
+.textInput:focus {
+    outline: none;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px rgb(50, 100, 153);
+}
+.Radio {
+    font-size: medium;
+
+}
+.Button {
+    display: block;
+    margin: 20px auto;
+    padding: .5rem;
+    font-size: 1em;
+    background: #32373b;
+    border-radius: 5px;
+    border-color: rgb(0, 0, 0);
+    color: white;
+    cursor: pointer;
+}

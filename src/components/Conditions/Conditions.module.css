@@ -1,0 +1,55 @@
+.Wrapper {
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+ }
+
+.Small {
+    color: red;
+}
+.weatherResults{
+    position: relative;
+    display: block;
+    margin: 10px auto;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+  
+    padding: 5px 25px;
+  
+    color: #FFF;
+    font-size: 50px;
+    font-weight: 700;
+  
+    text-shadow: 3px 6px rgba(50, 50, 70, 0.5);
+    text-align: center;
+    box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+}
+.cityName{
+    
+    margin: 5px auto;
+}
+.Degrees{
+    color: #282c34;
+    font-size: 100px;
+    margin: 5px auto;
+}
+.weatherDescription{
+    margin: 5px auto;
+    padding-bottom: 20px;
+    font-size: 30px;
+    text-shadow: 1px 3px rgba(50, 50, 70, 0.5);
+}
+
+.Loader {
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid rgb(90, 89, 89);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+    margin: 10px auto;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

@@ -1,0 +1,60 @@
+.circle {
+    width: 60%;
+    height: 60%;
+    background: rgb(255, 255, 121);
+    border-radius: 50%;
+    margin: auto;
+    
+ }
+ .sky {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background: #768b94;
+    border-radius: 5px;
+    margin: auto;
+    
+ }
+ .cloud1 {
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 50px;
+    width: 100px;
+    height: 50px;
+    background: rgb(226, 224, 224);
+    border-radius: 80px / 40px;
+    animation: glide 5s linear infinite;
+    
+ }
+ .cloud2 {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 5px;
+    width: 100px;
+    height: 50px;
+    background: rgb(226, 224, 224);
+    border-radius: 100px / 50px;
+    animation: glide2 5s linear infinite;
+    
+ }
+ .cloud3 {
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 50px;
+    width: 60px;
+    height: 60px;
+    background: rgb(226, 224, 224);
+    border-radius: 60px;
+    animation: glide 5s linear infinite;
+    
+ }
+ @keyframes glide {
+   50% { margin-left: 100px;}
+   100% { margin-right: 100px; }
+   
+}
+@keyframes glide2 {
+   50% { margin-left: 70px;}
+   100% { margin-right: 100px; }
+   
+}
